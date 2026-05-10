@@ -1,0 +1,42 @@
+# Frontier Tracker .gitignore
+
+# Generated outputs
+outputs/data/*.json
+outputs/data/frontier_*
+outputs/reports/*.html
+outputs/excel/*.xlsx
+outputs/app/
+outputs/codex/
+outputs/notes/
+
+# Persistent state
+state/*.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OpenClaw workspace files (personal agent config)
+.openclaw/
+AGENTS.md
+SOUL.md
+IDENTITY.md
+USER.md
+TOOLS.md
+HEARTBEAT.md
+memory/
